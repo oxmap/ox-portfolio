@@ -2,9 +2,9 @@ import React from 'react'
 import Section from '../Section'
 import ExperienceUnit from '../ExperienceUnit'
 
-import weatherScreen from '../../../assets/images/projects/weather.png'
-import podcastsScreen from '../../../assets/images/projects/podcasts.png'
-import soapscrapperScreen from '../../../assets/images/projects/soap-scrapper.png'
+import weatherScreen from '../../../assets/images/projects/weather-screen.png'
+import podcastsScreen from '../../../assets/images/projects/podcasts-screen.png'
+import soapscrapperScreen from '../../../assets/images/projects/soap-scrapper-screen.png'
 
 class ProjectsSection extends React.Component {
   render() {
