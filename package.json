@@ -5,8 +5,8 @@
   "scripts": {
     "dev": "gatsby develop",
     "build": "gatsby build",
-    "serve": "gatsby serve",
-    "heroku-postbuild": "gatsby build"
+    "deploy": "gatsby build && firebase deploy",
+    "serve": "gatsby serve"
   },
   "dependencies": {
     "flexboxgrid": "^6.3.1",

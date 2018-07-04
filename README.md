@@ -1,3 +1,3 @@
 # portfolio site
 
-For deploy use `heroku static:deploy`
+For deploy on firebase use `npm run deploy`
