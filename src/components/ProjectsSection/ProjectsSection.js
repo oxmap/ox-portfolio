@@ -15,7 +15,7 @@ class ProjectsSection extends React.Component {
             logo={weatherScreen}
             colour="#737fb7"
             title="OX.Weather"
-            link="http://www.ox-weather.herokuapp.com/"
+            link="http://ox-weather.herokuapp.com/"
             timeperiod="2018"
             subtitle="Прогноз погоды для городов с поиском Google Autocomplete, написан на React, Webpack."
           />
@@ -23,7 +23,7 @@ class ProjectsSection extends React.Component {
             logo={podcastsScreen}
             colour="#1f2226"
             title="OX.Podcasts"
-            link="http://www.ox-weather.herokuapp.com/"
+            link="http://ox-podcasts.herokuapp.com/"
             timeperiod="2018"
             subtitle="Агрегатор подкастов с Itunes с встроенным плееером. Inspired by Yandex.Music. Использован Angular 5, PouchDb для локальной БД."
           />
@@ -31,7 +31,7 @@ class ProjectsSection extends React.Component {
             logo={soapscrapperScreen}
             colour="#302a2a"
             title="OX.Soaps"
-            link="https://github.com/praagyajoshi/WVWalkthroughView"
+            link="http://ox-soap-scrapper.herokuapp.com/"
             timeperiod="2018"
             subtitle="Поиск фильмов/сериалов. Данные предоставлены TheMovieDB. Используется Angular 6, Material."
           />
