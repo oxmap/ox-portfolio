@@ -15,6 +15,10 @@ class About extends Component {
           <h4>oxmap@yandex.com</h4>
           <h3>Skype</h3>
           <h4>oxmap</h4>
+          <h3>GitHub</h3>
+          <a href='https://github.com/oxmap' target="_blank">
+            <h4>github.com\oxmap</h4>
+          </a>
         </div>
       </div>
     )
