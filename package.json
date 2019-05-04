@@ -1,6 +1,5 @@
 {
   "name": "portfolio",
-  "description": "",
   "license": "ISP",
   "scripts": {
     "dev": "gatsby develop",
@@ -10,7 +9,6 @@
   },
   "dependencies": {
     "flexboxgrid": "^6.3.1",
-    "font-awesome": "^4.7.0",
     "gatsby": "^1.9.238",
     "gatsby-link": "^1.6.39",
     "gatsby-plugin-google-fonts": "0.0.4",

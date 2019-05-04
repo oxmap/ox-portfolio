@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 
 import './style.scss'
-import 'font-awesome/css/font-awesome.min.css'
 
 class Links extends Component {
   render() {
