@@ -1,6 +1,5 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import get from 'lodash/get'
 
 import './style.scss'
 
@@ -9,7 +8,6 @@ import favicon32 from '../../assets/favicons/favicon-32x32.png'
 
 class TemplateWrapper extends React.Component {
   render () {
-    const siteTitle = get(this, 'props.data.site.siteMetadata.title')
     const { children } = this.props
 
     return (
