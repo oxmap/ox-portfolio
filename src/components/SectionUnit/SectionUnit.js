@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 
-import './style.scss'
+import './SectionUnit.scss'
 
-class ExperienceUnit extends Component {
+class SectionUnit extends Component {
   render() {
     return (
-      <div className="experience-unit col-xs-12 col-sm-6 col-md-4">
-        <a href={this.props.link} target="_blank">
+      <div className="section-unit">
+        <a href={this.props.link} target="_blank" rel="noopener noreferrer">
           <div
             className="image"
             style={{
@@ -15,18 +15,18 @@ class ExperienceUnit extends Component {
             }}>
           </div>
         </a>
-        <div className="title bold">
+        <h2 className="title bold">
           {this.props.title}
-        </div>
-        <div className="time-period">
+        </h2>
+        <span className="time-period">
           {this.props.timeperiod}
-        </div>
-        <div className="subtitle">
+        </span>
+        <p className="subtitle">
           {this.props.subtitle}
-        </div>
+        </p>
       </div>
     )
   }
 }
 
-export default ExperienceUnit
+export default SectionUnit
