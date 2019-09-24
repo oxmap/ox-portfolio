@@ -1,10 +1,8 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 
-import './style.scss'
-
-import favicon16 from '../../assets/favicons/favicon-16x16.png'
-import favicon32 from '../../assets/favicons/favicon-32x32.png'
+import favicon16 from 'assets/favicons/favicon-16x16.png'
+import favicon32 from 'assets/favicons/favicon-32x32.png'
 
 class TemplateWrapper extends React.Component {
   render () {

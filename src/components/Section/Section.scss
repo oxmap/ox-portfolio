@@ -1,0 +1,46 @@
+@import 'main.scss';
+
+.section {
+  padding: 5em;
+  margin: 20px 0;
+  background: $secondary-back-color;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.section-container {
+  width: 75%;
+  text-align: center;
+}
+
+.section-units {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  @include media('<medium') {
+    grid-template-columns: 1fr;
+  }
+}
+
+.caption {
+  font-size: 1.4em;
+  margin-bottom: 50px;
+}
+
+.more {
+  display: flex;
+  align-items: center;
+}
+
+.more__text {
+  font-size: 2em;
+}
+
+.more__link {
+  font-size: 1.1em;
+  color: #302a2a;
+  background-color: #dfbe99;
+  text-decoration: none;
+  font-weight: bold;
+}

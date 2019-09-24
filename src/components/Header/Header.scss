@@ -1,0 +1,46 @@
+@import 'main.scss';
+
+$max-width: 230px;
+$margin-bottom: 40px;
+
+@include media('<=small') {
+  .header__row {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.header {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.avatar {
+  width: 180px;
+  max-width: $max-width;
+  height: 180px;
+  object-fit: contain;
+  margin-bottom: $margin-bottom;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info__secondary {
+  font-size: 29px;
+}
+
+.info__primary {
+  font-size: 40px;
+  font-weight: bold;
+}
