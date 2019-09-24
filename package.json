@@ -9,7 +9,6 @@
     "serve": "gatsby serve"
   },
   "dependencies": {
-    "flexboxgrid": "^6.3.1",
     "gatsby": "^2.15.20",
     "gatsby-link": "^2.2.15",
     "gatsby-plugin-google-fonts": "^1.0.1",
