@@ -6,6 +6,7 @@ import instagram from 'assets/images/socials/instagram.svg';
 import medium from 'assets/images/socials/medium.svg';
 import skype from 'assets/images/socials/skype.svg';
 import phone from 'assets/images/socials/phone.svg';
+import youtube from 'assets/images/socials/youtube.svg';
 import soundcloud from 'assets/images/socials/soundcloud.svg';
 
 import './Links.scss'
@@ -85,6 +86,19 @@ class MediumSocialLink extends React.Component {
   }
 }
 
+class YoutubeSocialLink extends React.Component {
+  render() {
+    return (
+      <SocialLink
+        title="Youtube"
+        href="https://www.youtube.com/channel/UCZTuHn1MrF371j1sTCvbZtQ"
+        icon={youtube}
+      >
+      </SocialLink>
+    )
+  }
+}
+
 class SoundCloudSocialLink extends React.Component {
   render() {
     return (
@@ -121,6 +135,7 @@ class Links extends React.Component {
           <SkypeSocialLink />
           <GithubSocialLink />
           <MediumSocialLink />
+          <YoutubeSocialLink />
           <SoundCloudSocialLink />
           <InstagramSocialLink />
         </div>

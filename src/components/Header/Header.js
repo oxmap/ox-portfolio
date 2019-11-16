@@ -1,11 +1,11 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Links from 'components/Links/Links'
 
 import avatarImg from 'assets/images/avatar.jpg';
 
 import './Header.scss'
 
-class Header extends Component {
+class Header extends React.Component {
   render() {
     return (
       <section className="header">

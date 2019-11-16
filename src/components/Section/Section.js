@@ -1,8 +1,8 @@
-import React, {Component} from 'react'
+import React from 'react'
 
 import './Section.scss';
 
-class Section extends Component {
+class Section extends React.Component {
   render () {
     return (
       <section className="section">

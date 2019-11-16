@@ -6,8 +6,6 @@ import favicon32 from 'assets/favicons/favicon-32x32.png'
 
 class TemplateWrapper extends React.Component {
   render () {
-    const { children } = this.props
-
     return (
       <div className="template-wrapper">
         <Helmet
@@ -17,9 +15,6 @@ class TemplateWrapper extends React.Component {
             { rel: 'icon', type: 'image/png', sizes: '32x32', href: favicon32 }
           ]}
         />
-        <div className="template-wrapper-children">
-          { children() }
-        </div>
       </div>
     )
   }
