@@ -40,5 +40,6 @@ node_modules/
 .env
 
 .cache/
+.firebase/
 static/
-public
+public/

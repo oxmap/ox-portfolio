@@ -1,0 +1,40 @@
+@import 'main.scss';
+
+.section-unit {
+  margin-bottom: 50px;
+  padding: 1em;
+
+  .image {
+    width: 100%;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid $secondary-color;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: all 0.6s ease;
+    -webkit-transition: all 0.6s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0px 5px 18px 0px rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  .title {
+    padding: 8px 0px;
+    font-size: 1.8rem;
+  }
+
+  .time-period {
+    font-size: 1.8rem;
+    line-height: 0.9rem;
+    padding-bottom: 12px;
+  }
+
+  .subtitle {
+    color: $secondary-color;
+    font-size: 1.1em;
+  }
+}
