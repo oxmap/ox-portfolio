@@ -6,7 +6,7 @@
     "develop": "gatsby develop",
     "build": "gatsby build",
     "deploy": "npm run build && firebase deploy",
-    "serve": "gatsby serve"
+    "serve": "yarn build && gatsby serve"
   },
   "dependencies": {
     "gatsby": "^2.15.20",
