@@ -27,8 +27,10 @@ $margin-bottom: 40px;
   width: 180px;
   max-width: $max-width;
   height: 180px;
-  object-fit: contain;
+  object-fit: cover;
+  object-position: -3px;
   margin-bottom: $margin-bottom;
+  padding: 0 10px;
 }
 
 .info {
