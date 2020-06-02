@@ -9,11 +9,20 @@ import schoolioScreen from 'assets/images/projects/schoolio-screen.jpg'
 import hhBotScreen from 'assets/images/projects/hhbot-screen.png'
 import chessScreen from 'assets/images/projects/chess-screen.jpg'
 import trelloScreen from 'assets/images/projects/trello-screen.png'
+import graphScreen from 'assets/images/projects/graph-screen.jpg'
 
 class ProjectsSection extends React.Component {
   render() {
     return (
       <Section title="Проекты">
+        <SectionUnit
+          logo={graphScreen}
+          colour="#ffffff"
+          title="OX.Graph"
+          link="https://ox-graph.web.app/"
+          timeperiod="2020"
+          subtitle="Граф сотрудников/задач в компании. React, Typescript, GraphQL, D3."
+        />
         <SectionUnit
           logo={trelloScreen}
           colour="#60a3bc"
@@ -28,7 +37,7 @@ class ProjectsSection extends React.Component {
           title="OX.Weather"
           link="http://ox-weather.herokuapp.com/"
           timeperiod="2018"
-          subtitle="Прогноз погоды для городов с поиском Google Autocomplete, написан на React, Webpack."
+          subtitle="Прогноз погоды для городов с поиском. Google Autocomplete, React, Webpack."
         />
         <SectionUnit
           logo={podcastsScreen}
@@ -36,7 +45,7 @@ class ProjectsSection extends React.Component {
           title="OX.Podcasts"
           link="http://ox-podcasts.herokuapp.com/"
           timeperiod="2018"
-          subtitle="Агрегатор подкастов с Itunes с встроенным плееером. Inspired by Yandex.Music. Использован Angular 5, PouchDb для локальной БД."
+          subtitle="Агрегатор подкастов с Itunes с встроенным плееером. Inspired by Yandex.Music. Angular 5, PouchDb."
         />
         <SectionUnit
           logo={soapscrapperScreen}
@@ -44,7 +53,7 @@ class ProjectsSection extends React.Component {
           title="OX.Soaps"
           link="http://ox-soap-scrapper.herokuapp.com/"
           timeperiod="2018"
-          subtitle="Поиск фильмов/сериалов. Данные предоставлены TheMovieDB. Используется Angular 6, Material."
+          subtitle="Поиск фильмов/сериалов. Данные предоставлены TheMovieDB. Angular 6, Material."
         />
         <SectionUnit
           logo={hhBotScreen}
@@ -60,7 +69,7 @@ class ProjectsSection extends React.Component {
           title="OX.Chess"
           link="https://sourceforge.net/projects/comicschess/"
           timeperiod="2015"
-          subtitle="Веб-приложение комикс шахматы. В этом проекте показываются возможности графического клиент-серверного приложения. Написан на js(сервер - node.js, клиент three.js)."
+          subtitle="Веб-приложение комикс шахматы. В этом проекте показываются возможности графического клиент-серверного приложения. Node.js, Three.js."
         />
         <SectionUnit
           logo={schoolioScreen}
@@ -68,7 +77,7 @@ class ProjectsSection extends React.Component {
           title="OX.Schoolio"
           link="https://sourceforge.net/projects/schoolio/"
           timeperiod="2014"
-          subtitle="Приложение для визуализации школьных предметов. Был реализован в рамках проектного обучения в университете. Написан на c++(framework Cinder)."
+          subtitle="Приложение для визуализации школьных предметов. Был реализован в рамках проектного обучения в университете. C++, Cinder."
         />
       </Section>
     )
