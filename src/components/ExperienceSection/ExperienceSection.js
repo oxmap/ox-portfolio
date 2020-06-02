@@ -6,6 +6,7 @@ import indorLogo from 'assets/images/experience/indor-logo.gif'
 import milLogo from 'assets/images/experience/mil-logo.jpeg'
 import utsLogo from 'assets/images/experience/uts-logo.jpg'
 import tomskasuLogo from 'assets/images/experience/tomskasu-logo.jpg'
+import neostkLogo from 'assets/images/experience/neostk-logo.jpg'
 
 class ExperienceSection extends React.Component {
   render() {
@@ -41,7 +42,15 @@ class ExperienceSection extends React.Component {
           title='ТомскАСУпроект'
           link='https://tomskasu.ru/'
           timeperiod='2018-настоящее время'
-          subtitle='Руководил отделом фронтенд разработки, занимался оценкой проектов, разрабатывал фронтенд часть в веб проектах.'
+          subtitle='Руководил отделом фронтенд разработки, занимался оценкой проектов, разрабатывал фронтенд часть в веб проектах. Angular.'
+        />
+        <SectionUnit
+          logo={neostkLogo}
+          colour='#FFFFFF'
+          title='NeoStack'
+          link='https://neostk.com/'
+          timeperiod='2019-настоящее время'
+          subtitle='Участвовал в заказной разработке. React, Angular.'
         />
       </Section>
     )
