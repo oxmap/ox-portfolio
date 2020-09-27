@@ -13,12 +13,28 @@ class ExperienceSection extends React.Component {
     return (
       <Section title="Места работы" caption="Часть мест, где я успел поработать">
         <SectionUnit
-          logo={indorLogo}
-          colour='#92bd46'
-          title='Индорсофт'
-          link='https://www.indorsoft.ru/'
-          timeperiod='2014 - 2016'
-          subtitle='Разрабатывал 3D подсистему для IndorCAD с использованием Delphi/DirectX 11/hlsl. Начал интеграцию движка с CesiumJS и BIM-рещениями.'
+          logo={neostkLogo}
+          colour='#FFFFFF'
+          title='NeoStack'
+          link='https://neostk.com/'
+          timeperiod='2019-настоящее время'
+          subtitle='Участвовал в заказной разработке. React, Angular.'
+        />
+        <SectionUnit
+          logo={tomskasuLogo}
+          colour='#FFFFFF'
+          title='ТомскАСУпроект'
+          link='https://www.tomskasu.ru/'
+          timeperiod='2018-настоящее время'
+          subtitle='Руководил отделом фронтенд разработки, занимался оценкой проектов, разрабатывал фронтенд часть в веб проектах. Angular.'
+        />
+        <SectionUnit
+          logo={utsLogo}
+          colour='#FFFFFF'
+          title='Универсальные терминал системы'
+          link='http://unitsys.ru/'
+          timeperiod='2017-2018'
+          subtitle='Участвовал в разработке игровых режимов iSandbox(Rx-подобный DSL/glsl), усовершенствования 3D/AR движка GameX(C++), внедрял DevOps(yaml, batch, js).'
         />
         <SectionUnit
           logo={milLogo}
@@ -29,28 +45,12 @@ class ExperienceSection extends React.Component {
           subtitle='В составе срочной службы в научной роте выполнял научно-прикладные задачи. Разрабатывал систему автоматизации подготовки графических материалов на JS/QML/Python.'
         />
         <SectionUnit
-          logo={utsLogo}
-          colour='#FFFFFF'
-          title='Универсальные терминал системы'
-          link='http://unitsys.ru/'
-          timeperiod='2017-2018'
-          subtitle='Учавствовал в разработке игровых режимов iSandbox(Rx-подобный DSL/glsl), усовершенствования 3D/AR движка GameX(C++), внедрял DevOps(yaml, batch, js).'
-        />
-        <SectionUnit
-          logo={tomskasuLogo}
-          colour='#FFFFFF'
-          title='ТомскАСУпроект'
-          link='https://tomskasu.ru/'
-          timeperiod='2018-настоящее время'
-          subtitle='Руководил отделом фронтенд разработки, занимался оценкой проектов, разрабатывал фронтенд часть в веб проектах. Angular.'
-        />
-        <SectionUnit
-          logo={neostkLogo}
-          colour='#FFFFFF'
-          title='NeoStack'
-          link='https://neostk.com/'
-          timeperiod='2019-настоящее время'
-          subtitle='Участвовал в заказной разработке. React, Angular.'
+          logo={indorLogo}
+          colour='#92bd46'
+          title='Индорсофт'
+          link='https://www.indorsoft.ru/'
+          timeperiod='2014 - 2016'
+          subtitle='Разрабатывал 3D подсистему для IndorCAD с использованием Delphi/DirectX 11/hlsl. Начал интеграцию движка с CesiumJS и BIM-рещениями.'
         />
       </Section>
     )
