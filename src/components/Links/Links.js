@@ -2,7 +2,6 @@ import React from 'react';
 
 import email from 'assets/images/socials/email.svg';
 import github from 'assets/images/socials/github.svg';
-import instagram from 'assets/images/socials/instagram.svg';
 import medium from 'assets/images/socials/medium.svg';
 import skype from 'assets/images/socials/skype.svg';
 import phone from 'assets/images/socials/phone.svg';
@@ -112,19 +111,6 @@ class SoundCloudSocialLink extends React.Component {
   }
 }
 
-class InstagramSocialLink extends React.Component {
-  render() {
-    return (
-      <SocialLink
-        title="Instagram"
-        href="https://www.instagram.com/oxmap/"
-        icon={instagram}
-      >
-      </SocialLink>
-    )
-  }
-}
-
 class Links extends React.Component {
   render() {
     return (
@@ -137,7 +123,6 @@ class Links extends React.Component {
           <MediumSocialLink />
           <YoutubeSocialLink />
           <SoundCloudSocialLink />
-          <InstagramSocialLink />
         </div>
         <a className="cv" href="https://www.dropbox.com/s/pe2feezius84svn/%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5.docx?dl=0" target="_blank" rel="noopener noreferrer">Резюме</a>
       </div>
